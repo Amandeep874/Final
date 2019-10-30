@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>EB Application</title>
+
+
+<script type="text/javascript">
+
+var a=eval(prompt("Enter the number of MUNs attended as an EB member"));
+
+var b=10;
+
+if(a>=b)
+
+alert("You are eligible to become an Executive Board Member.");
+
+else if(a<10 && a>0){
+alert("You are eligible to become the deputy speaker of the committee.");
+
+}
+else {
+alert("You are eligible to become the rapporteur of the committee.");
+
+}
+</script>
+</head>
+<body style="background:moccasin">
+	
+	<h2> <font color="cadet blue">EXECUTIVE BOARD APPLICATION</font></h2>
+	<form name="f1" action="action.html">
+	<font color="light coral">(*)field is mandatory to fill</font><br>
+
+	Name*:<input type="text" name="name" autofocus><br><br>
+
+	Email Address*:<input type="email" name="email"><br><br>
+
+      
+        Contact Number*:<input type="integer" name="number" maxlength=10><br><br>
+        
+
+	Committee Preference 1*: 
+        
+        <input type="radio" name="radbut" value="UNSC"> UNSC
+	
+        <input type="radio" name="radbut" value="UNGA-DISEC"> UNGA-DISEC
+	
+        <input type="radio" name="radbut" value="UNODC"> UNODC
+	
+        <input type="radio" name="radbut" value="AIPPM"> AIPPM
+	
+        <input type="radio" name="radbut" value="CC"> CONTINUOUS CRISIS COMMITTEE
+<br><br>
+        
+Committee Preference 2*: 
+       
+        <input type="radio" name="radbut1" value="UNSC"> UNSC
+	
+        <input type="radio" name="radbut1" value="UNGA-DISEC"> UNGA-DISEC
+	
+        <input type="radio" name="radbut1" value="UNODC"> UNODC
+
+ 	<input type="radio" name="radbut1" value="AIPPM"> AIPPM
+
+	<input type="radio" name="radbut1" value="CC"> CONTINUOUS CRISIS COMMITTEE
+<br><br>
+	Institution/Occupation*:<input type="text" name="institution" > <br><br>
+
+
+	Qualification(If studying, mention the course you are enrolled in):
+ <textarea rows="4" cols="50" > </textarea> <br><br>
+	
+
+	City of Residence:<input type="text" name="residence"><br><br>
+	
+	
+	<button type="button" onClick="alert('Contact: Hiten Choudhary (USG EB AFFAIRS) +919971249953')">Any Queries?</button><br><br>
+	<input type="Submit" value="Submit">
+</form>
+	
+</body>
+</html>
+ 
